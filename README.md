@@ -1,71 +1,34 @@
-🏦 Banking Application For Account Management
+🏦 Banking Application
+A simple console-based banking application written in Java that allows users to manage their bank accounts.
+This project demonstrates Object-Oriented Programming (OOP) concepts such as encapsulation, nested classes, arrays, and string handling.
 
-📌 Overview
+🚀 Features
+➕ Create new bank accounts
+💰 Deposit money into an account
+💸 Withdraw money with balance validation
+👤 View account details (account number, holder name, balance, contact info)
+✏️ Update email & phone number
+📋 Menu-driven interface
+Supports up to 100 accounts
+🏗️ Project Structure
+The application is written in a single file: BankingApplication.java
 
-This is a Java console-based banking application that allows users to manage multiple bank accounts. The system supports basic banking operations such as creating accounts, depositing money, withdrawing money, viewing account details, and updating contact information.
+Account (nested static class)
 
-It demonstrates the use of Java programming concepts such as:
+Stores account information: account number, name, balance, email, phone
+Provides methods: deposit(), withdraw(), displayAccountDetails(), updateContactDetails()
+UserInterface (nested static class)
 
-Classes and Objects
+Handles user interaction via menu-driven options
+Manages multiple accounts in an array
+Provides methods: createAccount(), performDeposit(), performWithdrawal(), showAccountDetails(), updateContact()
+BankingApplication (main class)
 
-Arrays
-
-Control Structures (loops, conditionals)
-
-String Handling
-
-User Input using Scanner
-
-🎯 Features
-
-Create a new bank account with auto-generated account number
-
-Deposit money into an account
-
-Withdraw money with balance validation
-
-View account details
-
-Update email and phone number
-
-Menu-driven user interface
-
-🛠️Technologies Used
-
-Language: Java
-
-IDE: Visual Studio Code
-
-📂Project Structure
-
-BankingApplication.java// Main application file
-
-README.md// Project Documentation
-
-🖥️ Sample Run
-
-Welcome to Banking Application!
-
-Create a new Account
-
-Deposit Money
-
-Withdraw Money
-
-View Account Details
-
-Update Contact Details
-
-Exit
-
-Enter your Choice: 1
-
-Enter account holder name: Maya Sinha
-
-Enter initial deposit amount: 15000
-
-Enter email address: Maya.s@gmail.com
-
-Enter phone number: 8864321890
-
-Account created successfully with Account Number: 1001
+Entry point of the program (main() method)
+Creates UserInterface object and starts the application
+⚙️ Technologies Used
+Java (Core Java)
+Object-Oriented Programming (Encapsulation, Classes, Objects)
+Control Structures (if-else, switch, loops)
+Arrays & Strings
+Scanner Class (for console input)
